@@ -25,4 +25,53 @@
   background-color: #1a1b2b;
   height: 100%;
 }
+
+.container #right-section header {
+  width: 100%;
+  background-color: red;
+  padding: 1em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+}
+
+.container #right-section header span {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 0.5em;
+}
+
+.container #right-section header input {
+  margin-left: auto;
+}
+
+.container #right-section #main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.container #right-section #main #graphs {
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+}
+
+.container #right-section #main #graphs #box1, .container #right-section #main #graphs #box2, .container #right-section #main #graphs #box3 {
+  height: 33%;
+  background-color: blueviolet;
+  padding: 1em;
+  margin: 1em;
+}
+
+.container #right-section #main #feedback {
+  width: 30%;
+  height: 100%;
+  background-color: green;
+}
 /*# sourceMappingURL=style.css.map */
