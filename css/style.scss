@@ -22,7 +22,6 @@
             background-color: red;
             padding: 0 1em;
             display: flex;
-            height: 50px;
             align-items: center;
             span {
                 width: 2em;
@@ -38,11 +37,11 @@
     #main {
         display: flex;
         width: 100%;
-        height: clalc(100% - 50px);
+        height: calc(100% - 50px);
     
         
         #graphs {
-            width: 70%;
+            width: 75%;
             height: 100%;
             background-color: blue;
             #box1, #box2, #box3 {

@@ -29,11 +29,13 @@
 .container #right-section header {
   width: 100%;
   background-color: red;
-  padding: 1em 1em;
+  padding: 0 1em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container #right-section header span {
@@ -53,17 +55,17 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 50px);
 }
 
 .container #right-section #main #graphs {
-  width: 70%;
+  width: 75%;
   height: 100%;
   background-color: blue;
 }
 
 .container #right-section #main #graphs #box1, .container #right-section #main #graphs #box2, .container #right-section #main #graphs #box3 {
-  height: 33%;
+  height: 30%;
   background-color: blueviolet;
   padding: 1em;
   margin: 1em;
